@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-size:cover;
+	background-attachment: fixed;
+    background-color:#5F5E5E; 
+}
+
+.form-titl{
+	-webkit-text-stroke: 2px black;
+	font-size: 44px;
+    font-family: Impact;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0;
+}
+
+form{
+    background: #6D2929;
+    width: 170%;
+    max-width: 550px;
+    padding: 5px 35px;
+
+    padding-bottom: 40px;  
+    box-shadow: 3px 10px 100px #000;
+}
+
+.form-td{
+	-webkit-text-stroke: 2px black;
+    display: block;
+    color: #FFFFFF;
+    font-family: Impact;
+    font-size: 30px;
+    position: relative;
+    
+}
+.form-input, .form-textarea{
+	letter-spacing: 0.08em;
+	word-spacing: 0.25em;
+
+    background: rgba(0,0,0,.5);
+    border: none;
+    outline: none;
+
+    width: 60%;
+    padding: 16px;
+    margin-bottom: 27px;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: Arial;  
+    border-radius: 9px;
+}
+.boton{
+	width: 50%;
+    font-family: fantasy; 
+	font-size: 17px;
+	background:  #97102B;
+	cursor: pointer;
+	transition: all .5s ease;
+    padding: 5px 0;
+	border: none;
+	margin-bottom: 27px;
+	border-radius: 9px;
+
+}
+.botones{
+    margin-left: 120px;
+	font-family: fantasy; 
+	width: 50%;
+	font-size: 17px;
+	background:  #FFFFFF;
+	cursor: pointer;
+	transition: all .5s ease;
+	padding: 5px 0;
+    border: none;
+    border-radius: 9px;
+    margin-top: 30px;
+
+
+}
+
+.radio{
+	margin-bottom: 27px;
+	width: 10%;
+	cursor: pointer;
+	background:  #97102B;
+}

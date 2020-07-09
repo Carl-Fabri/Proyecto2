@@ -1,0 +1,11 @@
+create database Registros
+
+////////////////////////
+
+create table datos(
+               Nombres varchar(60),
+               Apellidos varchar(60),
+               Correo varchar(60),
+               Contraseña varchar(60)
+
+);

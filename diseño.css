@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding : 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #8A8D8A;
+}
+
+.busqueda{
+	widht: 1000px;
+	margin: 0px auto;
+	background: #000000;
+}
+
+.busqueda ul{
+	list-style:none;
+}
+
+.panel >li{
+	position: relative;
+	display: inline-block;
+}
+
+.panel > li > a{
+	display: block;
+	padding: 18px 9px;
+    color: #FFFFFF;
+    font-family: 'Broadway';
+    text-decoration:none; 
+}
+
+.panel  li a:hover{
+	color: #FF0000;
+	transition: all .s3;
+}
+
+/* Submenu */
+
+.submenu1{
+	position: absolute;
+	background: #333333;
+	widht: 120%;
+	visibility: hidden;
+	opacity: 0,
+	transition: opacity 1s;
+	font-family: 'ALGERIAN';
+
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'ALGERIAN';
+	text-decoration: none;
+} 
+
+.panel li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+
+
+
+.submenu2{
+	position: absolute;
+	background: #333333;
+	widht: 120%;
+	visibility: hidden;
+	opacity: 0,
+	transition: opacity 1s;
+	font-family: 'Elephant';
+
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Elephant';
+	text-decoration: none;
+} 
+
+.panel li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+
+
+
+
+
+.submenu3{
+	position: absolute;
+	background: #333333;
+	widht: 120%;
+	visibility: hidden;
+	opacity: 0,
+	transition: opacity 1s;
+
+}
+
+.submenu3 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+} 
+
+.panel li:hover .submenu3{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+
+
+
+.submenu4{
+	position: absolute;
+	background: #333333;
+	widht: 120%;
+	visibility: hidden;
+	opacity: 0,
+	transition: opacity 1s;
+	font-family: 'Arial Narrow';
+
+}
+
+.submenu4 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	
+	font-family: 'Arial';
+	text-decoration: none;
+} 
+
+.panel li:hover .submenu4{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+
+
+
+.submenu5{
+	position: absolute;
+	background: #333333;
+	widht: 120%;
+	visibility: hidden;
+	opacity: 0,
+	transition: opacity 1s;
+	font-family: 'Bauhaus 93';
+
+}
+
+.submenu5 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+} 
+
+.panel li:hover .submenu5{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+
+
+.submenu6{
+	position: absolute;
+	background: #333333;
+	widht: 120%;
+	visibility: hidden;
+	opacity: 0,
+	transition: opacity 1s;
+	font-family: 'Bodoni MT Black';
+
+}
+
+.submenu6 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+} 
+
+.panel li:hover .submenu6{
+	visibility: visible;
+	opacity: 1;
+
+}
+.Juego{
+	margin-left:130px;
+}
+
+
+.Registrarse{
+    margin-left: -5px;
+	}
+
+#muestreo{
+	text-align: center;
+	width: 700px;
+	height: 2220px;
+	margin: 6%;
+	background: #000000; 
+
+	}
+
+#cabecera{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #4D2929; 
+	float: right; 
+
+	text-align: center;
+	margin-top: 50px;
+	
+
+	}
+
+#cabecera2{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #344D29; 
+	float: left;
+	margin-top: 100px;
+	text-align: center;
+
+	}
+
+	#cabecera3{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #29434D; 
+	float: right;
+	margin-top: 100px;
+	text-align: center;
+	}
+
+	#cabecera4{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #373E72; 
+	float: left;
+	margin-top: 100px;
+	text-align: center;
+	}
+
+	#cabecera5{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #726D37; 
+	float: right;
+	margin-top: 100px;
+	text-align: center;
+	}
+
+	#cabecera6{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #725537; 
+	float: left;
+	margin-top: 100px;
+	text-align: center;
+	}
+
+	#cabecera7{
+	width: 350px;
+	height: 220px;
+	margin: 6% auto;
+	background: #416B73; 
+	float: right;
+	margin-top: 100px;
+	text-align: center;
+	}
+
+
+
+.titulo{
+    margin-left: 0px;
+	}
+
+.letra{
+	margin-top: 20px;
+}	
+
+.img1{
+	float: left;
+     margin-top: 32px;
+     border: #4D2929 20px solid;
+	}
+.img2{
+     float: right;
+     margin-top: 58px;
+     border: #344D29 20px solid;
+	}
+.img3{
+     float: left;
+     margin-top: 58px;
+     border: #29434D 20px solid;
+	}
+
+.img4{
+     float: right;
+     margin-top: 58px;
+     border: #373E72 20px solid;
+	}
+.img5{
+     float: left;
+     margin-top: 58px;
+     border: #726D37 20px solid;
+	}
+
+.img6{
+     float: right;
+     margin-top: 58px;
+     border: #725537 20px solid;
+	}
+.img7{
+     float: left;
+     margin-top: 58px;
+     border: #416B73 20px solid;
+	}
+
+ 
